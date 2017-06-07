@@ -3,19 +3,19 @@
   padding-bottom: 50px;
 }
 
-.resume-display {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 30vw;
-  padding: 3vh 5vw;
-  margin-bottom: 10vh;
-}
-
 .resume-header {
   font-size: 2.5em;
   text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.4);
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #ffffff;
+}
+
+.resume-display {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 30vw;
+  padding: 3vh 5vw;
+  margin-bottom: 10vh;
 }
 
 .resume-link {
