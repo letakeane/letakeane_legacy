@@ -11,7 +11,7 @@ export const Home = () => {
       </article>
       <article className='ideals'>
         <p>
-          I believe in creating apps that do good in the world, and that inspire us to be thoughtful, innovative, empathetic, and kind
+          I believe in creating apps that do good in the world and inspire us to be thoughtful, innovative, empathetic, and kind
         </p>
       </article>
     </article>
