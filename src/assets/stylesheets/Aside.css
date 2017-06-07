@@ -1,0 +1,43 @@
+.aside {
+  height: 100vh;
+  width: 30vw;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #000000;
+  margin: 0;
+}
+
+.description {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #000000;
+  margin: 0;
+}
+
+.motto {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 5px;
+  color: #FFAFB0;
+}
