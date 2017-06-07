@@ -37,7 +37,7 @@ input, textarea {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   text-transform: uppercase;
-  color: #000000;
+  color: rgba(23, 165, 167, 1);
   border: none;
   padding: 10px;
   margin-bottom: 5vh;
@@ -68,7 +68,7 @@ textarea {
   margin: 2.5vh 0 5vh 0;
 }
 
-.submit-button:hover {
+.submit-button:hover:enabled {
   box-shadow: 2px 2px 17px rgba(23, 165, 167, 0.4);
 }
 

@@ -14,20 +14,23 @@ export const Contact = () => {
                   type='text'
                   aria-label='your name'
                   placeholder='What should I call you?'
-                  name='name' />
+                  name='name'
+                  required />
           <label htmlFor='email'>Your email</label>
           <input  id='email-input'
                   type='email'
                   aria-label='your email'
                   placeholder='email@example.com'
-                  name='_replyto' />
+                  name='_replyto'
+                  required />
           <label htmlFor='message'>Your message</label>
           <textarea id='message-input'
                     type='text'
                     aria-label='your message'
                     placeholder="What's on your mind?"
                     form='contact'
-                    name='message' />
+                    name='message'
+                    required />
           <input type='hidden' name='_next' value='//letakeane.com/Contact/success' />
         </form>
         <button type='submit'
