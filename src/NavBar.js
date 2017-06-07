@@ -8,7 +8,7 @@ export const NavBar = () => {
       <NavLink to='/Portfolio' className='aside-nav' activeClassName='selected'>Portfolio</NavLink>
       <NavLink to='/Resume' className='aside-nav' activeClassName='selected'>Resume</NavLink>
       <NavLink to='/About' className='aside-nav' activeClassName='selected'>About</NavLink>
-      <NavLink to='https://letakeane.tumblr.com/' className='aside-nav' activeClassName='selected'>Blog</NavLink>
+      <a href='https://letakeane.tumblr.com/' className='aside-nav' target='_blank' rel='noopener noreferrer'>Blog</a>
       <NavLink to='/Contact' className='aside-nav' activeClassName='selected'>Contact</NavLink>
     </article>
   )

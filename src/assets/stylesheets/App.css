@@ -1,3 +1,23 @@
 .App {
   font-family: 'Open Sans', sans-serif;
 }
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  min-height: 100vh;
+  width: 70vw;
+  float: right;
+  background: url('/images/beach.jpg') no-repeat right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+button:focus, input:focus, a:focus, textarea:focus {
+  outline: rgba(0, 0, 0, 0);
+}
+
+.submit-alert {
+  z-index: 1;
+}
