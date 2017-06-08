@@ -31,7 +31,7 @@ export const Contact = () => {
                     form='contact'
                     name='message'
                     required />
-          <input type='hidden' name='_next' value='//localhost:3000/Contact/success' />
+          <input type='hidden' name='_next' value='//letakeane.com/Contact/success' />
         <button type='submit'
                 className='submit-button'>SEND</button>
         </form>
