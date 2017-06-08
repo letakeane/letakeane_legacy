@@ -18,7 +18,7 @@
 
 .ideals {
   display: block;
-  width: 20vw;
+  width: 45vw;
   background-color: rgba(255, 255, 255, 0.7);
   font-size: 1em;
   font-weight: 300;
@@ -28,4 +28,34 @@
   color: #000000;
   padding: 20px;
   margin: 10vh auto;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  .home {
+    padding: 0;
+    margin: 0;
+  }
+
+  .values {
+    width: 75vw;
+    margin: 0;
+  }
+
+  .ideals {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .values {
+    font-size: 0.8em;
+    width: 85vw;
+  }
+
+  .ideals {
+    width: 75vw;
+  }
 }

@@ -57,3 +57,19 @@
   color: #FFAFB0;
   margin: 0;
 }
+
+
+
+
+@media screen and (max-width: 720px) {
+  .resume-display {
+    width: 50vw;
+  }
+}
+
+
+@media screen and (max-width: 590px) {
+  .resume-display {
+    width: 85vw;
+  }
+}
