@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Contact } from './Contact';
 import './assets/stylesheets/About.css';
 
 export const About = () => {

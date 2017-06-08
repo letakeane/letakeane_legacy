@@ -1,0 +1,162 @@
+.portfolio {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.portfolio-header {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #ffffff;
+}
+
+.portfolio-display {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 400px;
+  padding: 50px 50px 0 50px;
+  margin-bottom: 10vh;
+}
+
+.portfolio-pane {
+  height: 220px;
+  width: 380px;
+}
+
+.portfolio-link {
+  font-size: 1.25em;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+.portfolio-pane {
+  padding: 5px;
+  box-shadow: 2px 2px 17px rgba(23, 165, 167, 0.2);
+}
+
+.portfolio-pane p {
+  color: rgba(0, 0, 0, 0);
+}
+
+.portfolio-pane a {
+  color: rgba(0, 0, 0, 0);
+}
+
+.portfolio-pane:hover {
+  transition-duration: 1s;
+}
+
+.portfolio-pane:hover p, .portfolio-pane:hover a {
+  transition-duration: 1s;
+  color: #FFFFFF;
+}
+
+.emotican {
+  background: url('/images/emotican.gif') no-repeat;
+  background-size: cover;
+}
+
+.emotican:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/emotican.gif') no-repeat;
+  background-size: cover;
+}
+
+.autocomplete {
+  background: url('/images/autocomplete.gif') no-repeat;
+  background-size: cover;
+}
+
+.autocomplete:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/autocomplete.gif') no-repeat;
+  background-size: cover;
+}
+
+.swapibox {
+  background: url('/images/swapibox.gif') no-repeat;
+  background-size: cover;
+}
+
+.swapibox:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/swapibox.gif') no-repeat;
+  background-size: cover;
+}
+
+.comp3 {
+  background: url('/images/comp3.gif') no-repeat;
+  background-size: cover;
+}
+
+.comp3:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/comp3.gif') no-repeat;
+  background-size: cover;
+}
+
+.app-design {
+  background: url('http://i.imgur.com/kXKRfGa.png') no-repeat;
+  background-size: cover;
+}
+
+.app-design:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('http://i.imgur.com/kXKRfGa.png') no-repeat;
+  background-size: cover;
+}
+
+.pizza-foreach {
+  background: url('/images/pizza-foreach.gif') no-repeat;
+  background-size: cover;
+}
+
+.pizza-foreach:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/pizza-foreach.gif') no-repeat;
+  background-size: cover;
+}
+
+.pizza-map {
+  background: url('/images/pizza-map.gif') no-repeat;
+  background-size: cover;
+}
+
+.pizza-map:hover {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/pizza-map.gif') no-repeat;
+  background-size: cover;
+}

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Portfolio } from './Portfolio';
-import { Contact } from './Contact';
 import './assets/stylesheets/Resume.css';
 
 export const Resume = () => {
@@ -9,7 +7,7 @@ export const Resume = () => {
     <article className='resume'>
       <h2 className='resume-header'>Projects</h2>
       <div className='resume-display'>
-        <Link className='resume-link' to='/Projects'>Click to See Projects</Link>
+        <Link className='resume-link' to='/Portfolio'>Click to See Projects</Link>
       </div>
       <h2 className='resume-header'>Skills</h2>
       <div className='resume-display'>
