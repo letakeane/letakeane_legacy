@@ -160,3 +160,24 @@
     ),  url('/images/pizza-map.gif') no-repeat;
   background-size: cover;
 }
+
+
+
+@media screen and (max-width: 590px) {
+  .portfolio-display {
+    width: 85vw;
+    padding: 20px 20px 0 20px;
+  }
+
+  .portfolio-pane {
+    width: 80vw;
+  }
+
+  .portfolio-pane p, .portfolio-pane a {
+    font-size: 0.8em;
+  }
+
+  .portfolio-link {
+    margin-bottom: 25px;
+  }
+}

@@ -85,15 +85,27 @@ textarea {
     width: 80vw;
   }
 
+  form {
+    width: 100%;
+  }
+
   input {
-    width: 65vw;
+    width: 85%;
   }
 
   #message-input {
-    width: 65vw;
+    width: 85%;
   }
 
   label {
-    width: 65vw;
+    width: 85%;
+  }
+}
+
+
+
+@media screen and (max-width: 590px) {
+  .contact-form {
+    width: 90vw;
   }
 }

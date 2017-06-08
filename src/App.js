@@ -7,6 +7,7 @@ import { Resume } from './Resume';
 import { About } from './About';
 import { Contact } from './Contact';
 import { success } from './success';
+import { Footer } from './Footer';
 import createBrowserHistory from 'history/createBrowserHistory';
 import './assets/stylesheets/App.css';
 
@@ -16,16 +17,19 @@ class App extends Component {
       <Router history={createBrowserHistory()}>
         <div className='App'>
           <Aside />
-          <article className='body'>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/Portfolio' component={Portfolio} />
-              <Route path='/Resume' component={Resume} />
-              <Route path='/About' component={About} />
-              <Route exact path='/Contact' component={Contact} />
-              <Route path='/Contact/success' component={success} />
-            </Switch>
-          </article>
+            <div className='body-footer'>
+              <article className='body'>
+                <Switch>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/Portfolio' component={Portfolio} />
+                  <Route path='/Resume' component={Resume} />
+                  <Route path='/About' component={About} />
+                  <Route exact path='/Contact' component={Contact} />
+                  <Route path='/Contact/success' component={success} />
+                </Switch>
+              </article>
+              <Footer />
+            </div>
         </div>
       </Router>
     );
