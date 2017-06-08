@@ -21,3 +21,15 @@ button:focus, input:focus, a:focus, textarea:focus {
 .submit-alert {
   z-index: 1;
 }
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  .body {
+    height: auto;
+    width: 100vw;
+    float: none;
+  }
+}

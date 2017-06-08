@@ -23,3 +23,21 @@
 .selected {
   color: rgba(23, 165, 167, 1);
 }
+
+
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    flex-direction: row;
+    margin: 20px auto;
+    order: 2;
+  }
+
+  .aside-nav {
+    margin: 0 10px;
+  }
+
+  .aside-nav:hover {
+    letter-spacing: 5px;
+  }
+}

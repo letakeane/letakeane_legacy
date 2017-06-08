@@ -42,3 +42,24 @@
   letter-spacing: 5px;
   color: #FFAFB0;
 }
+
+
+@media screen and (max-width: 720px) {
+  .aside {
+    height: auto;
+    width: 100vw;
+    float: none;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    position: static;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .hero {
+    margin: 20px 0;
+  }
+}

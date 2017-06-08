@@ -41,3 +41,21 @@
 .contact-me-link:hover {
   letter-spacing: 5px;
 }
+
+
+
+
+@media screen and (max-width: 720px) {
+  .about-me {
+    width: 75vw;
+    padding: 5vh 3vw;
+  }
+
+  .about-me p {
+    width: 60vw;
+  }
+
+  .contact-me-link {
+    margin: 30px;
+  }
+}

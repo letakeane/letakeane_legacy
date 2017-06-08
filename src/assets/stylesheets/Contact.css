@@ -78,3 +78,22 @@ textarea {
   text-align: center;
   margin: 25vh;
 }
+
+
+@media screen and (max-width: 720px) {
+  .contact-form {
+    width: 80vw;
+  }
+
+  input {
+    width: 65vw;
+  }
+
+  #message-input {
+    width: 65vw;
+  }
+
+  label {
+    width: 65vw;
+  }
+}
