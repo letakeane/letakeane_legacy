@@ -5,7 +5,7 @@
 
 .hello {
   font-size: 2.5em;
-  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.4);
+  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.8);
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #ffffff;
@@ -26,7 +26,6 @@
 .about-me p {
   width: 24vw;
   font-weight: 300;
-  text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0 auto 20px auto;
 }
@@ -38,7 +37,8 @@
   color: #FFAFB0;
 }
 
-.contact-me-link:hover {
+.contact-me-link:hover,
+.contact-me-link:active {
   letter-spacing: 5px;
 }
 

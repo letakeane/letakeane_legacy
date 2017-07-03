@@ -2,6 +2,8 @@ import React from 'react';
 import './assets/stylesheets/Contact.css';
 
 export const Contact = () => {
+  window.scrollTo(0, 0);
+
   return (
     <article className='contact'>
       <h2 className='form-greeting'>Say hello</h2>

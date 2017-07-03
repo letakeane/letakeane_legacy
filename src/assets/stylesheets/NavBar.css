@@ -10,18 +10,20 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: rgba(23, 165, 167, 0.4);
+  color: rgba(23, 165, 167, 0.8);
   margin: 20px 0;
 }
 
-.aside-nav:hover {
-  color: rgba(23, 165, 167, 1);
+.aside-nav:hover,
+.aside-nav:active,
+.aside-nav:focus {
+  color: rgb(23, 165, 167);
   text-transform: uppercase;
   letter-spacing: 8px;
 }
 
 .selected {
-  color: rgba(23, 165, 167, 1);
+  color: rgb(23, 165, 167);
 }
 
 
@@ -37,7 +39,8 @@
     margin: 0 10px;
   }
 
-  .aside-nav:hover {
+  .aside-nav:hover,
+  .aside-nav:active {
     letter-spacing: 5px;
   }
 }

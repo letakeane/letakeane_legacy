@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './assets/stylesheets/About.css';
 
 export const About = () => {
+  window.scrollTo(0, 0);
+
   return (
     <article className='about'>
       <h2 className='hello'>Hello</h2>

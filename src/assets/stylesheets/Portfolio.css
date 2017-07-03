@@ -5,7 +5,7 @@
 
 .portfolio-header {
   font-size: 2.5em;
-  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.4);
+  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.8);
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #ffffff;
@@ -21,20 +21,18 @@
   margin-bottom: 10vh;
 }
 
-.portfolio-pane {
-  height: 220px;
-  width: 380px;
-}
-
 .portfolio-link {
   font-size: 1em;
   font-weight: 300;
+  color: rgb(23, 165, 167);
   text-decoration: none;
   letter-spacing: 3px;
   margin-bottom: 50px;
 }
 
 .portfolio-pane {
+  height: 220px;
+  width: 380px;
   padding: 5px;
   box-shadow: 2px 2px 17px rgba(23, 165, 167, 0.2);
 }
@@ -47,11 +45,13 @@
   color: rgba(0, 0, 0, 0);
 }
 
-.portfolio-pane:hover {
+.portfolio-pane:hover,
+.portfolio-pane:active {
   transition-duration: 1s;
 }
 
-.portfolio-pane:hover p, .portfolio-pane:hover a {
+.portfolio-pane:hover p, .portfolio-pane:hover a,
+.portfolio-pane:active p, .portfolio-pane:active, a {
   transition-duration: 1s;
   color: #FFFFFF;
 }
@@ -61,7 +61,8 @@
   background-size: cover;
 }
 
-.emotican:hover {
+.emotican:hover,
+.emotican:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),
@@ -71,12 +72,29 @@
   background-size: cover;
 }
 
+.jetfuel {
+  background: url('/images/jetfuel.gif') no-repeat;
+  background-size: cover;
+}
+
+.jetfuel:hover,
+.jetfuel:active {
+  transition-duration: 1s;
+  background: linear-gradient(
+      rgba(6, 81, 105, 0.9),
+      rgba(6, 81, 105, 0.9),
+      rgba(0, 188, 171, 0.9)
+    ),  url('/images/jetfuel.gif') no-repeat;
+  background-size: cover;
+}
+
 .autocomplete {
   background: url('/images/autocomplete.gif') no-repeat;
   background-size: cover;
 }
 
-.autocomplete:hover {
+.autocomplete:hover,
+.autocomplete:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),
@@ -91,7 +109,8 @@
   background-size: cover;
 }
 
-.swapibox:hover {
+.swapibox:hover,
+.swapibox:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),
@@ -106,7 +125,8 @@
   background-size: cover;
 }
 
-.comp3:hover {
+.comp3:hover,
+.comp3:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),
@@ -121,7 +141,8 @@
   background-size: cover;
 }
 
-.app-design:hover {
+.app-design:hover,
+.app-design:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),
@@ -136,7 +157,8 @@
   background-size: cover;
 }
 
-.pizza-foreach:hover {
+.pizza-foreach:hover,
+.pizza-foreach:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),
@@ -151,7 +173,8 @@
   background-size: cover;
 }
 
-.pizza-map:hover {
+.pizza-map:hover,
+.pizza-map:active {
   transition-duration: 1s;
   background: linear-gradient(
       rgba(6, 81, 105, 0.9),

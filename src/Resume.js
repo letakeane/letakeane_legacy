@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './assets/stylesheets/Resume.css';
 
 export const Resume = () => {
+  window.scrollTo(0, 0);
+
   return (
     <article className='resume'>
       <h2 className='resume-header'>Projects</h2>

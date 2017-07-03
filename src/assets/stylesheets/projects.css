@@ -1,0 +1,95 @@
+.project {
+  width: 100%;
+}
+
+.project-name {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.project-display {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 75%;
+  margin: auto;
+  margin-bottom: 10vh;
+  padding: 50px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  display: block;
+  color: rgb(23, 165, 167);
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.project-link:hover {
+  letter-spacing: 5px;
+}
+
+.project-description {
+  width: 80%;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.project-stack,
+.project-goals {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  .project-description {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .project-name {
+    font-size: 2em;
+  }
+
+  .project-display {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .project-display {
+    width: 85%;
+  }
+}
