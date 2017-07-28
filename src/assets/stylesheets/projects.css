@@ -27,21 +27,25 @@
 .project-links {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.project-link {
-  display: block;
-  color: rgb(23, 165, 167);
-  letter-spacing: 2px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
   margin: 20px;
 }
 
+.link-box {
+  width: 50%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.project-link {
+  color: rgb(23, 165, 167);
+  letter-spacing: 2px;
+  /*text-align: center;*/
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .project-link:hover {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .project-description {
@@ -69,6 +73,14 @@ li {
 }
 
 
+
+
+@media screen and (max-width: 910px) {
+  .project-display {
+    width: 85%;
+    padding: 20px;
+  }
+}
 
 
 @media screen and (max-width: 720px) {

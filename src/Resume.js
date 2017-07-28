@@ -17,12 +17,12 @@ export const Resume = () => {
         <p>JavaScript (ES6)</p>
         <p>React/Redux</p>
         <p>jQuery</p>
-        <p>UX/UI Design</p>
-        <p>Testing (Mocha, Chai, Enzyme, Jest)</p>
-        <p>WAI-ARIA</p>
-        <p>Sketch</p>
-        <p>Node</p>
+        <p>Node.js</p>
         <p>Express</p>
+        <p>WAI-ARIA</p>
+        <p>Testing (Mocha, Chai, Enzyme, Jest)</p>
+        <p>UX/UI Design</p>
+        <p>Sketch</p>
       </div>
       <h2 className='resume-header'>Experience</h2>
       <div className='resume-display'>

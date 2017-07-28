@@ -173,7 +173,7 @@ export const project = (props) => {
   const displayText = (array) => {
     return array.map((paragraph, index) => {
       return (
-        <p key={index}>{paragraph}</p>
+          <p key={index}>{paragraph}</p>
       )
     })
   }
@@ -181,7 +181,7 @@ export const project = (props) => {
   const displayLinks = (array) => {
     return array.map((string, index) => {
       return (
-        <li key={index}>{string}</li>
+          <li key={index}>{string}</li>
       )
     })
   }
@@ -189,7 +189,9 @@ export const project = (props) => {
   const displayLiveSite = () => {
     if (displayedProject.production !== '') {
       return (
-        <Link className='project-link' to={displayedProject.production}>Live project site</Link>
+        <div className='link-box'>
+          <Link className='project-link' to={displayedProject.production}>Live project site</Link>
+        </div>
       )
     }
   }
@@ -197,7 +199,9 @@ export const project = (props) => {
   const displayRepo = () => {
     if (displayedProject.repo !== '') {
       return (
-        <Link className='project-link' to={displayedProject.repo}>GitHub Repo</Link>
+        <div className='link-box'>
+          <Link className='project-link' to={displayedProject.repo}>GitHub Repo</Link>
+        </div>
       )
     }
   }
@@ -208,8 +212,8 @@ export const project = (props) => {
       <article className='project-display'>
         <img className='project-image' src={displayedProject.imageName} alt='screenshot of project' />
         <article className='project-links'>
-          {displayLiveSite()}
-          {displayRepo()}
+            {displayLiveSite()}
+            {displayRepo()}
         </article>
         <article className='project-description'>
           <article className='project-text'>{displayText(displayedProject.text)}</article>
