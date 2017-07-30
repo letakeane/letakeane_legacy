@@ -190,7 +190,7 @@ export const project = (props) => {
     if (displayedProject.production !== '') {
       return (
         <div className='link-box'>
-          <Link className='project-link' to={displayedProject.production}>Live project site</Link>
+          <a className='project-link' href={displayedProject.production}>Live project site</a>
         </div>
       )
     }
@@ -200,7 +200,7 @@ export const project = (props) => {
     if (displayedProject.repo !== '') {
       return (
         <div className='link-box'>
-          <Link className='project-link' to={displayedProject.repo}>GitHub Repo</Link>
+          <a className='project-link' href={displayedProject.repo}>GitHub Repo</a>
         </div>
       )
     }
