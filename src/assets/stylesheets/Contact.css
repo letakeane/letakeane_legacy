@@ -1,28 +1,31 @@
 .contact {
   text-align: center;
   padding-bottom: 50px;
+  width: 90%;
 }
 
 .form-greeting {
   font-size: 2.5em;
-  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.8);
+  text-shadow: 2px 2px 17px rgba(23, 167, 88, 0.8);
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #fff9f5;
 }
 
 .contact-form {
-  background-color: rgba(255, 249, 245, 0.7);
+  background-color: rgba(255, 249, 245, 0.8);
 }
 
 form {
-  width: 30vw;
+  box-sizing: border-box;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
   text-transform: uppercase;
   padding: 20px;
+  margin: auto;
 }
 
 label {
@@ -37,7 +40,7 @@ input, textarea {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   text-transform: none;
-  color: rgba(23, 165, 167, 1);
+  color: rgba(23, 167, 88, 1);
   border: none;
   padding: 10px;
   margin-bottom: 5vh;
@@ -49,7 +52,7 @@ textarea {
 
 ::placeholder {
   text-transform: uppercase;
-  color: rgba(23, 165, 167, 0.4);
+  color: rgba(23, 167, 88, 0.4);
 }
 
 #message-input {
@@ -71,7 +74,7 @@ textarea {
 
 .submit-button:hover:enabled,
 .submit-button:active:enabled {
-  box-shadow: 2px 2px 17px rgba(23, 165, 167, 0.4);
+  box-shadow: 2px 2px 17px rgba(23, 167, 88, 0.4);
 }
 
 .success {
@@ -81,32 +84,26 @@ textarea {
 }
 
 
-@media screen and (max-width: 720px) {
-  .contact-form {
-    width: 80vw;
-  }
 
-  form {
-    width: 100%;
-  }
-
-  input {
-    width: 85%;
-  }
-
-  #message-input {
-    width: 85%;
-  }
-
-  label {
-    width: 85%;
+@media screen and (min-width: 1200px) {
+  .contact {
+    width: 60%;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .contact {
+    width: 98%;
+  }
 
+  form {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin: 0;
+  }
 
-@media screen and (max-width: 590px) {
-  .contact-form {
-    width: 90vw;
+  input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
