@@ -7,7 +7,7 @@ export const Aside = () => {
   return (
     <article className='aside'>
       <Link to='/' className='hero'>
-        <img className='logo' src='/images/logo-sq.png' alt='Leta Keane logo of a minimalistic representation of a mineral crystal' />
+        <img className='logo' src='https://i.giphy.com/media/xUOwFSWHOu2qYMJTmU/giphy.gif' alt='blooming flower' />
         <h1 className='title'>Leta Keane</h1>
         <h6 className='description'>Front-end developer</h6>
       </Link>

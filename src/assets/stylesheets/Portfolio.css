@@ -5,17 +5,17 @@
 
 .portfolio-header {
   font-size: 2.5em;
-  text-shadow: 2px 2px 17px rgba(23, 165, 167, 0.8);
+  text-shadow: 2px 2px 17px rgba(231, 144, 14, 0.8);
   text-transform: uppercase;
   letter-spacing: 8px;
-  color: #ffffff;
+  color: #fff9f5;
 }
 
 .portfolio-display {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 249, 245, 0.8);
   width: 400px;
   padding: 50px 50px 0 50px;
   margin-bottom: 10vh;
@@ -24,7 +24,7 @@
 .portfolio-link {
   font-size: 1em;
   font-weight: 300;
-  color: rgb(23, 165, 167);
+  color: rgb(19, 160, 73);
   text-decoration: none;
   letter-spacing: 3px;
   margin-bottom: 50px;
@@ -34,7 +34,7 @@
   height: 220px;
   width: 380px;
   padding: 5px;
-  box-shadow: 2px 2px 17px rgba(23, 165, 167, 0.2);
+  box-shadow: 2px 2px 17px rgba(255, 216, 88, 0.3);
 }
 
 .portfolio-pane p {
@@ -53,7 +53,7 @@
 .portfolio-pane:hover p, .portfolio-pane:hover a,
 .portfolio-pane:active p, .portfolio-pane:active, a {
   transition-duration: 1s;
-  color: #FFFFFF;
+  color: #fff9f5;
 }
 
 .emotican {
@@ -65,9 +65,9 @@
 .emotican:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+      rgba(77, 6, 105, 0.9),
+      rgb(82, 6, 105),
+      rgb(245, 56, 173)
     ),  url('/images/emotican.gif') no-repeat;
   background-size: cover;
 }
@@ -81,9 +81,9 @@
 .jetfuel:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+      rgba(30, 82, 194, 0.9),
+      rgb(46, 145, 211),
+      rgb(35, 172, 30)
     ),  url('/images/jetfuel.gif') no-repeat;
   background-size: cover;
 }
@@ -97,9 +97,9 @@
 .autocomplete:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+      rgba(238, 140, 28, 0.9),
+      rgb(248, 166, 43),
+      rgb(245, 210, 13)
     ),  url('/images/autocomplete.gif') no-repeat;
   background-size: cover;
 }
@@ -113,9 +113,9 @@
 .swapibox:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+    rgba(77, 6, 105, 0.9),
+    rgb(82, 6, 105),
+    rgb(245, 56, 173)
     ),  url('/images/swapibox.gif') no-repeat;
   background-size: cover;
 }
@@ -129,9 +129,9 @@
 .comp3:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+    rgba(30, 82, 194, 0.9),
+    rgb(46, 145, 211),
+    rgb(35, 172, 30)
     ),  url('/images/comp3.gif') no-repeat;
   background-size: cover;
 }
@@ -145,9 +145,9 @@
 .app-design:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+    rgba(238, 140, 28, 0.9),
+    rgb(248, 166, 43),
+    rgb(245, 210, 13)
     ),  url('http://i.imgur.com/kXKRfGa.png') no-repeat;
   background-size: cover;
 }
@@ -161,9 +161,9 @@
 .pizza-foreach:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+    rgba(77, 6, 105, 0.9),
+    rgb(82, 6, 105),
+    rgb(245, 56, 173)
     ),  url('/images/pizza-foreach.gif') no-repeat;
   background-size: cover;
 }
@@ -177,9 +177,9 @@
 .pizza-map:active {
   transition-duration: 1s;
   background: linear-gradient(
-      rgba(6, 81, 105, 0.9),
-      rgba(6, 81, 105, 0.9),
-      rgba(0, 188, 171, 0.9)
+    rgba(30, 82, 194, 0.9),
+    rgb(46, 145, 211),
+    rgb(35, 172, 30)
     ),  url('/images/pizza-map.gif') no-repeat;
   background-size: cover;
 }

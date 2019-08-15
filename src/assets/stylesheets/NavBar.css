@@ -10,20 +10,20 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: rgba(23, 165, 167, 0.8);
+  color: rgba(189, 93, 192, 0.8);
   margin: 20px 0;
 }
 
 .aside-nav:hover,
 .aside-nav:active,
 .aside-nav:focus {
-  color: rgb(23, 165, 167);
+  color: rgb(207, 20, 135);
   text-transform: uppercase;
   letter-spacing: 8px;
 }
 
 .selected {
-  color: rgb(23, 165, 167);
+  color: #4D6D38;
 }
 
 

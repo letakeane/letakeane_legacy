@@ -49,8 +49,8 @@
 .github-logo {
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 249, 245, 0.5),
+      rgba(255, 249, 245, 0.5)
     ),
     url('/images/github.png');
   background-size: cover;
@@ -67,8 +67,8 @@
 .linkedin-logo {
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 249, 245, 0.5),
+      rgba(255, 249, 245, 0.5)
     ),
     url('/images/linkedin.png');
   background-size: cover;
@@ -85,8 +85,8 @@
 .twitter-logo {
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 249, 245, 0.5),
+      rgba(255, 249, 245, 0.5)
     ),
     url('/images/twitter.png');
   background-size: cover;
@@ -103,8 +103,8 @@
 .youtube-logo {
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 249, 245, 0.5),
+      rgba(255, 249, 245, 0.5)
     ),
     url('/images/youtube.png');
   background-size: cover;
@@ -124,7 +124,7 @@
   text-align: center;
   text-transform: lowercase;
   letter-spacing: 5px;
-  color: #FFAFB0;
+  color: rgb(244, 121, 255);
 }
 
 
@@ -133,7 +133,7 @@
     height: auto;
     width: 100vw;
     float: none;
-    background-color: #ffffff;
+    background-color: #fff9f5;
     padding: 0;
     margin: 0;
     position: static;

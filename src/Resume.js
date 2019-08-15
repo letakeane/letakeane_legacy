@@ -11,18 +11,18 @@ export const Resume = () => {
       <div className='resume-display'>
         <Link className='resume-link' to='/Portfolio'>Click to See Projects</Link>
       </div>
-      <h2 className='resume-header'>Skills</h2>
+      <h2 className='resume-header'>Stack</h2>
       <div className='resume-display'>
-        <p>HTML5 + CSS 3</p>
+        <p>React</p>
+        <p>Redux</p>
         <p>JavaScript (ES6)</p>
-        <p>React/Redux</p>
+        <p>HTML5 + CSS3</p>
         <p>jQuery</p>
         <p>Node.js</p>
         <p>Express</p>
-        <p>WAI-ARIA</p>
-        <p>Testing (Mocha, Chai, Enzyme, Jest)</p>
+        <p>PostgresQL</p>
+        <p>Unit Testing (Mocha, Chai, Enzyme, Jest)</p>
         <p>UX/UI Design</p>
-        <p>Sketch</p>
       </div>
       <h2 className='resume-header'>Experience</h2>
       <div className='resume-display'>
