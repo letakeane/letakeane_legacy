@@ -23,7 +23,7 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #FFAFB0;
+  color: rgb(184, 118, 214);
 }
 
 .resume-link:hover {
@@ -54,7 +54,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #FFAFB0;
+  color: rgb(184, 118, 214);
   margin: 0;
 }
 
