@@ -6,6 +6,7 @@ import { Work } from './Work';
 import { Resume } from './Resume';
 import { About } from './About';
 import { Contact } from './Contact';
+import { Talks } from './Talks';
 import { success } from './success';
 import { Footer } from './Footer';
 import createBrowserHistory from 'history/createBrowserHistory';
@@ -26,6 +27,7 @@ class App extends Component {
                   <Route path='/Resume' component={Resume} />
                   <Route path='/About' component={About} />
                   <Route exact path='/Contact' component={Contact} />
+                  <Route exact path='/Talks' component={Talks} />
                   <Route path='/Contact/success' component={success} />
                 </Switch>
               </article>

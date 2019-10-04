@@ -65,6 +65,10 @@
   .resume-display {
     width: 50vw;
   }
+
+  .resume-header {
+    font-size: 2em;
+  }
 }
 
 

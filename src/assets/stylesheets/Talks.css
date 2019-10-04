@@ -1,0 +1,51 @@
+.talks-title {
+  color: #ad864b;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.talks-display {
+  background-color: rgba(255, 249, 245, 0.9);
+  width: 30vw;
+  padding: 3vh 5vw 5vw 5vw;
+  margin: auto;
+  margin-bottom: 5vh;
+  text-align: left;
+  color: #3d3b36;
+}
+
+.talks-display h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.talks-display a {
+  font-size: 20px;
+  color: rgb(184, 118, 214);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.talks-display a:hover {
+  color: rgb(207, 20, 135);
+}
+
+.talk-date {
+  color: #3d7026;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .talks-display {
+    width: 50vw;
+  }
+}
+
+
+@media screen and (max-width: 590px) {
+  .talks-display {
+    width: 85vw;
+  }
+}
